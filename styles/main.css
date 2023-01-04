@@ -113,4 +113,47 @@ nav>ul>li:hover>a {
     height: 676px;
     width: 584px;
 }
+
 /* ==== header section end ==== */
+.about-section {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    max-width: 1140px;
+    margin: 130px auto;
+    padding: 130px 157px;
+    text-align: center;
+}
+
+.section-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info-details {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+/* ==== about me section end ==== */
