@@ -73,3 +73,32 @@ nav>ul>li:hover>a {
 }
 
 /* ===== navigation section  end ==== */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 220px;
+
+}
+
+.welcome-text {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+}
+
+.owner-name {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
