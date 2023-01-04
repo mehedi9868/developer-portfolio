@@ -31,14 +31,19 @@ body {
     text-decoration: none;
 }
 
-
-
-/* header and navigation */
+/* ==== header and navigation ==== */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left 23px bottom 25px;
+}
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 220px;
+    margin: 0 220px;
+    padding-top: 50px;
 }
 
 .nav-title {
@@ -75,8 +80,9 @@ nav>ul>li:hover>a {
 /* ===== navigation section  end ==== */
 .banner {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin: 0 220px;
+    margin: 47px 38px 0 230px;
 
 }
 
@@ -102,3 +108,9 @@ nav>ul>li:hover>a {
     margin-bottom: 30px;
 
 }
+
+.banner img {
+    height: 676px;
+    width: 584px;
+}
+/* ==== header section end ==== */
