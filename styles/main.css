@@ -278,3 +278,69 @@ nav>ul>li:hover>a {
 }
 
 /* ==== resume section end ==== */
+
+/* ==== footer section css ==== */
+.footer {
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    gap: 120px;
+}
+
+.left-section>h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.left-section>p {
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+.left-section>a {
+    text-decoration: none;
+}
+
+.right-section,
+.left-section {
+    width: 100%;
+}
+
+.right-section>h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.right-section input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    padding: 30px;
+
+}
+
+.right-section input[type=text],
+input[type=email] {
+    height: 64px;
+}
+
+/* ==== footer section end ==== */
