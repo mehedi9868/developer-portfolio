@@ -14,11 +14,12 @@ body {
 
 .btn-primary {
     background-color: #8a2be2;
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
-    border: none;
     border-radius: 5px;
     padding: 18px 35px;
+    border: none;
 }
 
 .btn-primary:hover {
@@ -29,6 +30,14 @@ body {
 .btn-primary>a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.btn-contact {
+    background-color: inherit;
+    color: #8a2be2;
+    border: 1px solid #8a2be2;
+    padding: 17px 35px;
+    margin-left: 30px;
 }
 
 /* ==== header and navigation ==== */
