@@ -213,3 +213,62 @@ nav>ul>li:hover>a {
 }
 
 /* ==== what i do section css end ==== */
+
+/* ==== resume section css ==== */
+.resume-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.resume-section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 48px;
+    margin-bottom: 100px;
+
+}
+
+.resume-section-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.education-title,
+.experience-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.ins-name,
+.inc-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.education-details,
+.work-details {
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* ==== resume section end ==== */
