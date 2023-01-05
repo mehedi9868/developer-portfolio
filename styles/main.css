@@ -157,3 +157,59 @@ nav>ul>li:hover>a {
 }
 
 /* ==== about me section end ==== */
+
+/* ==== what i do section css ==== */
+.skill-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.skill-section-heading {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skill-description {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.skill-card {
+    width: 267px;
+    height: 377px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.skill-details {
+    line-height: 28px;
+    color: #757575;
+}
+
+/* ==== what i do section css end ==== */
